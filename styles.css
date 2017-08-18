@@ -3,5 +3,27 @@ body {
 }
 
 .soccer-ball-pic {
-  width: 150px;
+  /* constrain our images by the width of their parent */
+  width: 100%;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+.wrapper {
+  /* make its children flex*/
+  display: flex;
+  /* the children should display in a row */
+  flex-direction: row;
+  /* let the children wrap to multiple lines */
+  flex-wrap: wrap;
+
+  width: 100%;
+
+}
+
+.wrapper div {
+  width: 35%;
+  margin: 7%;
 }
