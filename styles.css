@@ -7,6 +7,7 @@ body {
   width: 100%;
 }
 
+
 h1 {
   font-size: 6em;
 }
@@ -26,4 +27,9 @@ h1 {
 .wrapper div {
   width: 15%;
   margin: 5%;
+}
+
+.soccer-ball-pic:hover {
+  transition: 500ms;
+  transform: rotate(180deg)
 }
