@@ -2,31 +2,24 @@ body {
   background-color: #FEFEFE;
 }
 
-.soccer-ball-pic {
-  /* constrain our images by the width of their parent */
-  width: 100%;
-}
-
-
 h1 {
   font-size: 6em;
 }
 
 .wrapper {
-  /* make its children flex*/
-  display: flex;
-  /* the children should display in a row */
-  flex-direction: row;
-  /* let the children wrap to multiple lines */
-  flex-wrap: wrap;
-
   width: 100%;
-
 }
 
 .wrapper div {
-  width: 15%;
+  display: inline-block;
+  width: 14%;
   margin: 5%;
+}
+
+.soccer-ball-pic {
+  /* constrain our images by the width of their parent */
+  width: 100%;
+  transition: 500ms;
 }
 
 .soccer-ball-pic:hover {
