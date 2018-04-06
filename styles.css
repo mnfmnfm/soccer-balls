@@ -8,6 +8,9 @@ h1 {
 
 .wrapper {
   width: 100%;
+  background-image: url("images/Soccer_Field.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .wrapper div {
